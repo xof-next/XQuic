@@ -1,0 +1,92 @@
+{
+  "name": "@xof/quic",
+  "version": "1.0.1",
+  "description": "Low-level QUIC v1/v2 and HTTP/3 stack with async flow control, pacing, opt-in DPLPMTUD, and an H3-first diagnostic client with verified HTTP/2/1.1 fallback.",
+  "keywords": [
+    "quic",
+    "http3",
+    "http/3",
+    "http-3",
+    "quic-v1",
+    "quic-v2",
+    "http3-client",
+    "http3-server",
+    "tls13",
+    "tls-1.3",
+    "qpack",
+    "qlog",
+    "udp",
+    "networking",
+    "protocol",
+    "transport",
+    "nodejs",
+    "node",
+    "low-level",
+    "network-stack",
+    "interoperability",
+    "packet-protection",
+    "congestion-control"
+  ],
+  "homepage": "https://github.com/Xyraakyzzz/XQuic",
+  "bugs": {
+    "url": "https://github.com/Xyraakyzzz/XQuic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xyraakyzzz/XQuic.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/xof-next"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "XOF Project",
+    "url": "https://github.com/xof-next"
+  },
+  "contributors": [
+    {
+      "name": "XOF Project"
+    }
+  ],
+  "type": "commonjs",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "client.js",
+    "client",
+    "lib/",
+    "examples/",
+    "interop/",
+    "test/",
+    "README.md",
+    "CHANGELOG.md",
+    "RFC-CONFORMANCE-AUDIT.md",
+    "in.md",
+    "id.md",
+    "in.error.md",
+    "id.error.md"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "node --watch server.js",
+    "client": "node client.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "preferGlobal": false,
+  "sideEffects": false,
+  "packageManager": "npm@11",
+  "release": {
+    "branch": "main",
+    "stable": "1.4.5"
+  }
+}
