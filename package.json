@@ -27,9 +27,9 @@
     "packet-protection",
     "congestion-control"
   ],
-  "homepage": "https://github.com/Xyraakyzzz/XQuic",
+  "homepage": "https://github.com/xof-next/XQuic",
   "bugs": {
-    "url": "https://github.com/Xyraakyzz/XQuic/issues"
+    "url": "https://github.com/xof-next/XQuic/issues"
   },
   "repository": {
     "type": "git",
