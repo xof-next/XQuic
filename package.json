@@ -29,11 +29,11 @@
   ],
   "homepage": "https://github.com/Xyraakyzzz/XQuic",
   "bugs": {
-    "url": "https://github.com/Xyraakyzzz/XQuic/issues"
+    "url": "https://github.com/Xyraakyzz/XQuic/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xyraakyzzz/XQuic.git"
+    "url": "git+https://github.com/xof-next/XQuic.git"
   },
   "funding": {
     "type": "individual",
